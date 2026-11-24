@@ -1252,42 +1252,50 @@ def Info():
           LINHA1=st.columns([0.05,0.30,0.30,0.30,0.05],gap='medium')
           with LINHA1[1]:           
             codig2='<!-- Widgets Produtos Cepea - www.cepea.esalq.com.br/br/widget.aspx --><script type="text/javascript" src="https://www.cepea.org.br/br/widgetproduto.js.php?fonte=arial&tamanho=7&largura=300px&corfundo=dbd6b2&cortexto=333333&corlinha=ede7bf&id_indicador%5B%5D=54&id_indicador%5B%5D=91&id_indicador%5B%5D=23&id_indicador%5B%5D=24&id_indicador%5B%5D=162"></script>'
-            st.html(codig2, height=250, scrolling=True)
+            #st.html(codig2, height=250, scrolling=True)
+            st.html(codig2, width=250, unsafe_allow_javascript=True)
             
           with LINHA1[2]:
             codig3='<!-- Widgets Produtos Cepea - www.cepea.esalq.com.br/br/widget.aspx --><script type="text/javascript" src="https://www.cepea.org.br/br/widgetproduto.js.php?fonte=arial&tamanho=7&largura=300px&corfundo=dbd6b2&cortexto=333333&corlinha=ede7bf&id_indicador%5B%5D=77&id_indicador%5B%5D=72&id_indicador%5B%5D=178&id_indicador%5B%5D=12&id_indicador%5B%5D=381-380&id_indicador%5B%5D=380-413&id_indicador%5B%5D=378-61"></script>'
-            st.html(codig3, height=250, scrolling=True)
+            #st.html(codig3, height=250, scrolling=True)
+            st.html(codig3, width=250, unsafe_allow_javascript=True)
           with LINHA1[3]:
             codig4='<!-- Widgets Produtos Cepea - www.cepea.esalq.com.br/br/widget.aspx --><script type="text/javascript" src="https://www.cepea.org.br/br/widgetproduto.js.php?fonte=arial&tamanho=7&largura=300px&corfundo=dbd6b2&cortexto=333333&corlinha=ede7bf&id_indicador%5B%5D=159-Bastos+(SP)+-+FOB-branco&id_indicador%5B%5D=159-Grande+BH+-+(MG)+-+CIF-branco&id_indicador%5B%5D=159-Bastos+(SP)+-+FOB-vermelho&id_indicador%5B%5D=159-Grande+BH+-+(MG)+-+CIF-vermelho&id_indicador%5B%5D=159-Recife+(PE)+-+CIF-branco&id_indicador%5B%5D=159-Recife+(PE)+-+CIF-vermelho"></script>'
-            st.html(codig4, height=250, scrolling=True)
+            #st.html(codig4, height=250, scrolling=True)
+            st.html(codig4, width=250, unsafe_allow_javascript=True)
           
         with st.container(height=250,border=False):
           LINHA2A1=st.columns([0.05,0.30,0.30,0.30,0.05],gap='medium')
           with LINHA2A1[1]:
             codig6='<!-- Widgets Produtos Cepea - www.cepea.esalq.com.br/br/widget.aspx --><script type="text/javascript" src="https://www.cepea.org.br/br/widgetproduto.js.php?fonte=arial&tamanho=7&largura=300px&corfundo=dbd6b2&cortexto=333333&corlinha=ede7bf&id_indicador%5B%5D=305-RS&id_indicador%5B%5D=305-PR&id_indicador%5B%5D=305-MT&id_indicador%5B%5D=305-MS&id_indicador%5B%5D=305-CE&id_indicador%5B%5D=305-BA"></script>'
 
-            st.html(codig6, height=250, scrolling=True) 
+            #st.html(codig6, height=250, scrolling=True)
+            st.html(codig6, width=250, unsafe_allow_javascript=True)
           with LINHA2A1[2]:
             codig6b='<!-- Widgets Produtos Cepea - www.cepea.esalq.com.br/br/widget.aspx --><script type="text/javascript" src="https://www.cepea.org.br/br/widgetproduto.js.php?fonte=arial&tamanho=7&largura=300px&corfundo=dbd6b2&cortexto=333333&corlinha=ede7bf&id_indicador%5B%5D=129-10&id_indicador%5B%5D=129-6&id_indicador%5B%5D=129-4&id_indicador%5B%5D=129-5&id_indicador%5B%5D=129-1"></script>'
             st.html(codig6b, height=250, scrolling=True) 
           with LINHA2A1[3]:
             codig5='<!-- Widgets Produtos Cepea - www.cepea.esalq.com.br/br/widget.aspx --><script type="text/javascript" src="https://www.cepea.org.br/br/widgetproduto.js.php?fonte=arial&tamanho=7&largura=300px&corfundo=dbd6b2&cortexto=333333&corlinha=ede7bf&id_indicador%5B%5D=8&id_indicador%5B%5D=2&id_indicador%5B%5D=181&id_indicador%5B%5D=130&id_indicador%5B%5D=leitep&id_indicador%5B%5D=349-MG&id_indicador%5B%5D=349-NP"></script>'
-            st.html(codig5, height=250, scrolling=True)
+            #st.html(codig5, height=250, scrolling=True)
+            st.html(codig5, width=250, unsafe_allow_javascript=True)
             st.markdown('<p style="font-size: 14px;color: blue;">Preço FOB = não inclui frete (comprador assume riscos e custos com o transporte = pago no destino). CIF = inclui frete (vendedor paga custo do transporte na origem = vendedor é responsável pela entrega)</p>',unsafe_allow_html=True)
             
         with st.container(height=250,border=False):
           LINHA3A1=st.columns([0.05,0.30,0.30,0.30,0.05],gap='medium')
           with LINHA3A1[1]:
             codig1a='<!-- Widgets Produtos Cepea - www.cepea.esalq.com.br/br/widget.aspx --><script type="text/javascript" src="https://www.cepea.org.br/br/widgetproduto.js.php?fonte=arial&tamanho=7&largura=300px&corfundo=dbd6b2&cortexto=333333&corlinha=ede7bf&id_indicador%5B%5D=50&id_indicador%5B%5D=53&id_indicador%5B%5D=208&id_indicador%5B%5D=104&id_indicador%5B%5D=209&id_indicador%5B%5D=103"></script>'
-            st.html(codig1a, height=250, scrolling=True) 
+            #st.html(codig1a, height=250, scrolling=True)
+            st.html(codig1a, width=250, unsafe_allow_javascript=True)
           with LINHA3A1[2]:
             codig1b='<!-- Widgets Notícias Agrícolas - www.noticiasagricolas.com.br/widgets --><script type="text/javascript" src="https://www.noticiasagricolas.com.br/widgets/cotacoes?&id=55&fonte=Arial%2C%19Helvetica%2C%19sans-serif&tamanho=9pt&largura=300px&cortexto=333333&corcabecalho=B2C3C6&corlinha=DCE7E9&imagem=true&output=js"></script>'
-            st.html(codig1b, height=250, scrolling=True) 
+            #st.html(codig1b, height=250, scrolling=True)
+            st.html(codig1b, width=250, unsafe_allow_javascript=True)
             st.markdown('<p style="font-size: 14px;color: blue;">Obs: Algodão: ¢R$ /Libra-peso(lp) <span style="font-family: symbol;">@ </span> 33,069/100 <span style="font-family: symbol;">@</span>1/3 <span style="font-family: symbol;">Þ</span> R$/@<span style="font-family: symbol;">\</span>1lp=0,453597 kg</p>',unsafe_allow_html=True)
             st.markdown('<p style="font-size: 14px;color: blue;">Ex: 70,98 (¢/lb)*33.069= 2347.238/100= 23.47238 (US$/@)*5.76= 135.20 (R$/@)</p>',unsafe_allow_html=True)
           with LINHA3A1[3]:
             codig1c='<!-- Widgets Notícias Agrícolas - www.noticiasagricolas.com.br/widgets --><script type="text/javascript" src="https://www.noticiasagricolas.com.br/widgets/cotacoes?id=81&fonte=Arial%2C%19Helvetica%2C%19sans-serif&tamanho=9pt&largura=300px&cortexto=333333&corcabecalho=B2C3C6&corlinha=DCE7E9&imagem=true&output=js"></script>'
-            st.html(codig1c, height=250, scrolling=True)
+            #st.html(codig1c, height=250, scrolling=True)
+            st.html(codig1c, width=250, unsafe_allow_javascript=True)
             
         with st.container(height=250,border=False):
           LINHA4A1=st.columns([0.05,0.30,0.30,0.30,0.05],gap='medium')
@@ -1312,32 +1320,39 @@ def Info():
               mls17a2.insert(2,dicagrolink[mls17a[2]])
             
             codig17a='<iframe id="frmPreview" frameborder="0" scrolling="no" width="300" height="200" style="border:none;" src="https://selos.agrolink.com.br/selos/carregaselo?servico=cotacoes&uf=%s,%s,%s&p=3446,3448,2017,3451&l=&esp=&cor=rgb(232,193,58)&w=300&h=200"></iframe>'%(mls17a2[0],mls17a2[1],mls17a2[2])
-            st.html(codig17a, height=250, scrolling=True)
+            #st.html(codig17a, height=250, scrolling=True)
+            st.html(codig17a, width=250, unsafe_allow_javascript=True)
           with LINHA4A1[2]:
             codig17b='<iframe id="frmPreview" frameborder="0" scrolling="no" width="300" height="200" style="border:none;" src="https://selos.agrolink.com.br/selos/carregaselo?servico=cotacoes&uf=9826,9830,9832&p=3441,3442,3443,2142&l=&esp=&cor=rgb(232,193,58)&w=300&h=200"></iframe>'
-            st.html(codig17b, height=250, scrolling=True)
+            #st.html(codig17b, height=250, scrolling=True)
+            st.html(codig17b, width=250, unsafe_allow_javascript=True)
           with LINHA4A1[3]:
             codig17c='<iframe id="frmPreview" frameborder="0" scrolling="no" width="300" height="200" style="border:none;" src="https://selos.agrolink.com.br/selos/carregaselo?servico=cotacoes&uf=9826,9832,9846&p=2149,1762,2075,1761&l=&esp=&cor=rgb(232,193,58)&w=300&h=200"></iframe>'
-            st.html(codig17c, height=250, scrolling=True)
+            #st.html(codig17c, height=250, scrolling=True)
+            st.html(codig17c, width=250, unsafe_allow_javascript=True)
             
         with st.container(height=250,border=False):#FAZENDO AINDA
           LINHA5A1=st.columns([0.05,0.30,0.30,0.30,0.05],gap='medium')
           with LINHA5A1[1]:
             codig18a='<iframe id="frmPreview" frameborder="0" scrolling="no" width="300" height="200" style="border:none;" src="https://selos.agrolink.com.br/selos/carregaselo?servico=cotacoes&uf=9826,9832,9839&p=11,1771,4160,1772&l=&esp=&cor=rgb(232,193,58)&w=300&h=200"></iframe>'
-            st.html(codig18a, height=250, scrolling=True)
+            #st.html(codig18a, height=250, scrolling=True)
+            st.html(codig18a, width=250, unsafe_allow_javascript=True)
             st.markdown('<p style="font-size: 14px;color: blue;">Boi gordo >= 18@)</p>',unsafe_allow_html=True)
           with LINHA5A1[2]:
             codig18b='<iframe id="frmPreview" frameborder="0" scrolling="no" width="300" height="200" style="border:none;" src="https://selos.agrolink.com.br/selos/carregaselo?servico=cotacoes&uf=9826,9839,9833&p=4076,4044,3899,3636&l=&esp=&cor=rgb(232,193,58)&w=300&h=200"></iframe>'
-            st.html(codig18b, height=250, scrolling=True)
+            #st.html(codig18b, height=250, scrolling=True)
+            st.html(codig18b, width=250, unsafe_allow_javascript=True)
           with LINHA5A1[3]:
             codig18c='<iframe id="frmPreview" frameborder="0" scrolling="no" width="300" height="200" style="border:none;" src="https://selos.agrolink.com.br/selos/carregaselo?servico=cotacoes&uf=9826,9839,9847&p=3888,2143,1766,2145&l=&esp=&cor=rgb(232,193,58)&w=300&h=200"></iframe>'
-            st.html(codig18c, height=250, scrolling=True)
+            #st.html(codig18c, height=250, scrolling=True)
+            st.html(codig18c, width=250, unsafe_allow_javascript=True)
         #https://www.agrolink.com.br/comercial/conteudo-gratuito
         with st.container(height=250,border=False):
           LINHA2A=st.columns([0.05,0.9,0.05],gap='medium')          
           with LINHA2A[1]:
             codig7='<iframe src="https://www.agron.com.br/widgets/cotacao_interna_horizontal.php" width="850px;" height="100px;" scrolling="no" frameborder="0" style="border-color:#F7F7F7; border:dotted 1px; border-color:#CCC"></iframe>'
-            st.html(codig7, height=150, scrolling=True)         
+            st.html(codig7, height=150, scrolling=True)
+            st.html(codig7, width=250, unsafe_allow_javascript=True)
         
        
         #https://portaldeinformacoes.conab.gov.br/custos-de-producao.html
@@ -1349,38 +1364,47 @@ def Info():
           LINHA2=st.columns([0.06,0.22,0.22,0.22,0.22,0.06],gap='small')                   
           with LINHA2[1]:
             codig14='<!-- Widgets Notícias Agrícolas - www.noticiasagricolas.com.br/widgets --><script type="text/javascript" src="https://www.noticiasagricolas.com.br/widgets/cotacoes?id=115&fonte=Arial%2C%20Helvetica%2C%20sans-serif&tamanho=10pt&largura=400px&cortexto=333333&corcabecalho=B2C3C6&corlinha=DCE7E9&imagem=true&output=js"></script>'
-            st.html(codig14, height=250, scrolling=True)
+            #st.html(codig14, height=250, scrolling=True)
+            st.html(codig14, width=250, unsafe_allow_javascript=True)
           with LINHA2[2]:
             codig9='<iframe src="https://www.agron.com.br/widgets/dollar.php" width="290px;" height="220px;" scrolling="no" frameborder="0"></iframe>'
-            st.html(codig9, height=250, scrolling=True)
+            #st.html(codig9, height=250, scrolling=True)
+            st.html(codig9, width=250, unsafe_allow_javascript=True)
           with LINHA2[3]:
              codig15='<!-- Widgets Notícias Agrícolas - www.noticiasagricolas.com.br/widgets --><script type="text/javascript" src="https://www.noticiasagricolas.com.br/widgets/cotacoes?id=232&fonte=Arial%2C%20Helvetica%2C%20sans-serif&tamanho=10pt&largura=400px&cortexto=333333&corcabecalho=B2C3C6&corlinha=DCE7E9&imagem=true&output=js"></script>'
-             st.html(codig15, height=250, scrolling=True)
+             #st.html(codig15, height=250, scrolling=True)
+             st.html(codig15, width=250, unsafe_allow_javascript=True)
           with LINHA2[4]:
              #codig16='<iframe src="https://api.wo-cloud.com/content/widget/?geoObjectKey=16229787&language=pt&region=BR&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius" name="CW2" scrolling="no" width="290" height="318" frameborder="0" style="border: 1px solid #10658E;border-radius: 8px"></iframe>'
              #st.html(codig16, height=250, scrolling=True)
              codig8='<iframe src="https://www.agron.com.br/widgets/banners-revistas.html" width="290px;" height="390px;" scrolling="no" frameborder="0"  align="middle"></iframe>'
-             st.html(codig8, height=250, scrolling=True)
+             #st.html(codig8, height=250, scrolling=True)
+             st.html(codig8, width=250, unsafe_allow_javascript=True)
         with st.container(height=250,border=False):
           LINHA2b=st.columns([0.05,0.18,0.18,0.18,0.18,0.05],gap='small')                   
           with LINHA2b[1]:
             codig10='<iframe src="https://www.agron.com.br/widgets/ultimas-noticias.php?qtd=9&begin=0&largura=300&tamanho=12" width="300px;" height="900px;" scrolling="no" frameborder="0"  align="middle"></iframe>'
-            st.html(codig10, height=250, scrolling=True)
+            #st.html(codig10, height=250, scrolling=True)
+            st.html(codig10, width=250, unsafe_allow_javascript=True)
           with LINHA2b[2]:
              codig11='<!-- Widgets Notícias Agrícolas - www.noticiasagricolas.com.br/widgets --><script type="text/javascript" src="https://www.noticiasagricolas.com.br/widgets/noticias?subsecao=2,3,162,6,8,10,64,80,85,146,5,4,11,12,156,40,158,60,13,163,97,14,95,205,15,1,155,84,28,149,26,69,90,62,27,92,148,154,32,101,102,103,105,207,106,107,108,109,147,206,110,111,112,113,159,114,157,115,116,210,68,164,117,118,119,204,211,120,121,203,166&largura=300px&altura=250px&fonte=Arial%2C%12Helvetica%2C%20sans-serif&tamanho=10pt&cortexto=333333&corlink=006666&qtd=40&output=js"></script>'
-             st.html(codig11, height=250, scrolling=True)
+             #st.html(codig11, height=250, scrolling=True)
+             st.html(codig11, width=250, unsafe_allow_javascript=True)
           with LINHA2b[3]:
              codig18='<iframe id="frmPreview" frameborder="0" scrolling="no" width="300" height="200" style="border:none;" src="https://selos.agrolink.com.br/selos/carregaselo?servico=noticias&uf=&p=&l=&esp=3218,5,1492,8723,6932,4397,15884,3525,3302,3180,93303,4112,1906,3139&cor=rgb(30,106,30)&w=300&h=200"></iframe>'
-             st.html(codig18, height=250, scrolling=True) 
+             #st.html(codig18, height=250, scrolling=True)
+             st.html(codig18, width=250, unsafe_allow_javascript=True)
           with LINHA2b[4]:
              codig19='<iframe id="frmPreview" frameborder="0" scrolling="no" width="300" height="200" style="border:none;" src="https://selos.agrolink.com.br/selos/carregaselo?servico=noticias&uf=&p=&l=&esp=3595,3775,4653,1231,3508&cor=rgb(30,106,30)&w=300&h=200"></iframe>'
-             st.html(codig19, height=250, scrolling=True) 
+             #st.html(codig19, height=250, scrolling=True)
+             st.html(codig19, width=250, unsafe_allow_javascript=True)
 
 
       with tab03:   
         cabecalho(cab1='INFORMAÇÕES AGRÍCOLAS',cab2='IBGE')
         codig16='<iframe src="https://api.wo-cloud.com/content/widget/?geoObjectKey=16229787&language=pt&region=BR&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius" name="CW2" scrolling="no" width="290" height="318" frameborder="0" style="border: 1px solid #10658E;border-radius: 8px"></iframe>'
-        st.html(codig16, height=200, scrolling=True)
+        #st.html(codig16, height=200, scrolling=True)
+        st.html(codig16, width=250, unsafe_allow_javascript=True)
         #lerquadros(quadro=json.load(open(os.path.join(os.path.expanduser('~'), 'Desktop')+r"\Visualizador_Quest_Final_100924\quadros\quadro37b_v1.json", 'r', encoding='utf-8-sig')))
         #st.markdown('<div id="mrwid38568f23c749e3fb430fd6ba74dc3588"><script type="text/javascript" async src="https://api.meteored.com/widget/loader/38568f23c749e3fb430fd6ba74dc3588"></script></div>',unsafe_allow_html=True)
       with tab04:
