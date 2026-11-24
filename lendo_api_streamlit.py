@@ -1250,8 +1250,8 @@ def ViewPDF(wch_fl,compr=1200,larg=950):
   # Access the uploaded ref via a key.
   st.file_uploader(wch_fl, type=('pdf'),key='pdf_%s'%ctkey)
 
-  if ss.pdf:
-      ss.pdf_ref = ss.pdf  # backup
+  if eval('ss.pdf_%s'%ctkey):
+      ss.pdf_ref = eval('ss.pdf_%s'%ctkey)  # backup
       ctkey+=1
 
   # Now you can access "pdf_ref" anywhere in your app.
