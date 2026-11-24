@@ -1425,7 +1425,7 @@ def Info():
 
 
         
-        veda={'nome':['produtoa','produtob'],'imagem':['.\Fisiologia\Fisiologia_1.png','.\Fisiologia\ciclo_de_calvin.jpg']}
+        veda={'nome':['produtoa','produtob'],'imagem':['./Fisiologia/Fisiologia_1.png','./Fisiologia/ciclo_de_calvin.jpg']}
         df = pd.DataFrame(veda)
         from PIL import Image
         import base64
@@ -1437,7 +1437,7 @@ def Info():
               return None
         def imagem2(x):
           saida=x['imagem']
-          if saida.split('\\')[-1][-3:]=='jpg':
+          if saida.split('//')[-1][-3:]=='jpg':
             texto='img src="data:image/jpg;base64'
           else:
             texto='img src="data:image/png;base64'
@@ -1468,7 +1468,7 @@ def Info():
         herbi_a=st.columns([0.05,0.70,0.25],gap='small')
         import glob
         caminho='./Forrageiras_ou_daninhas/Plantas_daninhas_Embrapa'
-        ler=glob.glob(caminho+'\\*')
+        ler=glob.glob(caminho+'//*')
         dicherb={"Plantas daninhas 1":'./poster1.pdf',"Plantas daninhas 2":'./poster2.pdf',"Plantas daninhas 3":'./poster3_compressed.pdf', "Forrageiras":'./Forrageiras_ou_daninhas/Cartilha_Forrageiras_Zootécnico_compressed.pdf'}         
         cab1=["Plantas daninhas 1", "Plantas daninhas 2", "Plantas daninhas 3", "Forrageiras"]
         
@@ -1505,8 +1505,8 @@ def Info():
         with st.container(height=1000,border=False):
           import glob
           Lfisio=st.columns([0.04,0.45,0.02,0.45,0.04],gap='small')  
-          lerfisio=glob.glob('./Fisiologia/Fotossintese_resumo'+'\\*')
-          lerfisio2=glob.glob('./Fisiologia/Fotossintese_resumo2'+'\\*')
+          lerfisio=glob.glob('./Fisiologia/Fotossintese_resumo'+'//*')
+          lerfisio2=glob.glob('./Fisiologia/Fotossintese_resumo2'+'//*')
           dicfisio={"Nitrogênio":'./Fisiologia/METABOLISMO_DO_NITROGÊNIO.pdf',
                      "Reguladores":'./Fisiologia/Fitormônios.pdf'}          
           cabfisio1=["Nitrogênio", "Reguladores"]
