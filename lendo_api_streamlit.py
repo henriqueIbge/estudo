@@ -1237,8 +1237,24 @@ def ViewPDF(wch_fl,compr=1200,larg=950):
     
     #st.markdown(pdf_display, unsafe_allow_html=True)
   #pdf_display = f'<iframe src="{wch_fl}" width="%s" height="%s" type="application/pdf"></iframe>'%(compr,larg)
-  pdf_display = f'<embed src="{wch_fl}" width="%s" height="%s" >'%(compr,larg)
-  st.markdown(pdf_display, unsafe_allow_html=True)
+
+  #pdf_display = f'<embed src="{wch_fl}" width="%s" height="%s" >'%(compr,larg)
+  #st.markdown(pdf_display, unsafe_allow_html=True)
+  
+  if 'pdf_ref' not in ss:
+    ss.pdf_ref = None
+
+
+  # Access the uploaded ref via a key.
+  st.file_uploader(wch_fl, type=('pdf'), key='pdf')
+
+  if ss.pdf:
+      ss.pdf_ref = ss.pdf  # backup
+
+  # Now you can access "pdf_ref" anywhere in your app.
+  if ss.pdf_ref:
+      binary_data = ss.pdf_ref.getvalue()
+      pdf_viewer(input=binary_data, width="%s" height="%s")%(compr,larg)
    
     
 dicagrolink={'AC':9822,'AL':9823,'BA':9826,'CE':9827,'DF':9828,\
