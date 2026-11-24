@@ -1582,7 +1582,7 @@ def Info():
         with st.container(height=1000,border=False):
           import glob
           Lcenso=st.columns([0.05,0.90,0.05],gap='small')  
-          lercenso=glob.glob('.\Censo_2017'+'\\*')    
+          lercenso=glob.glob('./Censo_2017'+'//*')    
           cabcenso1=[]
           diccenso={}
           lercenso[0].split('/')[-1].split(' ')[-1].split('.')[0].upper()
