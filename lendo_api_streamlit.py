@@ -1246,13 +1246,13 @@ def ViewPDF(wch_fl,compr=1200,larg=950):
   if 'pdf_ref' not in ss:
     ss.pdf_ref = None
 
-
+  ctkey+=1
   # Access the uploaded ref via a key.
   st.file_uploader(wch_fl, type=('pdf'),key='pdf_%s'%ctkey)
 
   if eval('ss.pdf_%s'%ctkey):
       ss.pdf_ref = eval('ss.pdf_%s'%ctkey)  # backup
-      ctkey+=1
+      
 
   # Now you can access "pdf_ref" anywhere in your app.
   if ss.pdf_ref:
@@ -1260,10 +1260,10 @@ def ViewPDF(wch_fl,compr=1200,larg=950):
       pdf_viewer(input=binary_data, width="%s", height="%s")%(compr,larg)
    
     
-dicagrolink={'AC':9822,'AL':9823,'BA':9826,'CE':9827,'DF':9828,\
-  'ES':9829,'GO':9830,'MA':9831,'MG':9832,'MS':9833,'MT':9834, 'PA':9835,\
-    'PB':9836,'PE':9837,'PI':9838,'PR':9839,'RJ':9840,'RN':9841,'RO':9842,\
-     'RR':9843,'RS':9844,'SC':9845,'SE':9846,'SP':9847,'TO':9848}
+dicagrolink={'AC':9822,'AL':9823,'BA':9826,'CE':9827,'DF':9828,
+             'ES':9829,'GO':9830,'MA':9831,'MG':9832,'MS':9833,'MT':9834, 'PA':9835,
+             'PB':9836,'PE':9837,'PI':9838,'PR':9839,'RJ':9840,'RN':9841,'RO':9842,
+             'RR':9843,'RS':9844,'SC':9845,'SE':9846,'SP':9847,'TO':9848}
 
 listagro=list(dicagrolink.keys())
 def Info():      
