@@ -1232,10 +1232,11 @@ def acesso_dados1():
   variaveis1a
 def ViewPDF(wch_fl,compr=1200,larg=950):
   with open(wch_fl,"rb") as pdf_file:
-    base64_pdf = base64.b64encode(pdf_file.read()).decode('utf-8')
+    #base64_pdf = base64.b64encode(pdf_file.read()).decode('utf-8')
     #pdf_display = f'<embed src="data:application/pdf;base64,{base64_pdf}" width="%s" height="%s" type="application/pdf">'%(compr,larg)
-    pdf_display = f'<src="data:application/pdf;base64,{base64_pdf}" width="%s" height="%s" type="application/pdf">'%(compr,larg)
+    pdf_display = f'<iframe src="{wch_fl}" width="%s" height="%s" type="application/pdf"></iframe>'%(compr,larg)
     st.markdown(pdf_display, unsafe_allow_html=True)
+    
    
     
 dicagrolink={'AC':9822,'AL':9823,'BA':9826,'CE':9827,'DF':9828,\
