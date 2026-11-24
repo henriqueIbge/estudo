@@ -1613,9 +1613,9 @@ def Info():
           cabfruti=['Banana1','Banana2','Abacaxi1','Abacaxi2','Abacaxi3','Goiaba','Mamão1','Mamão2','Maracujá', 'Melancia','Melão1','Melão2','Melão3','Morango',
                     'Uva1','Uva2','Uva3','Uva4','Limão','Atemóia','Manga1','Manga2','Figo','Citrus_1','Citrus_2','Citrus_3','Citrus_4','Citrus_5','Citrus_6']
           cabfruti1=tuple(cabfruti)
-          dicfruti1={"Banana1":'Hortifruti/banana.pdf',"Banana2":'./Hortifruti/gabarito_banana-2.pdf',"Abacaxi1":'./Hortifruti/abacaxi.pdf',
+          dicfruti1={"Banana1":'./Hortifruti/banana.pdf',"Banana2":'./Hortifruti/gabarito_banana-2.pdf',"Abacaxi1":'./Hortifruti/abacaxi.pdf',
                      "Abacaxi2":'./Hortifruti/gab_abacaxi.pdf',"Abacaxi3":'./Hortifruti/gab_abacaxi_perola_v4.pdf',"Goiaba":'./Hortifruti/goiaba.pdf',
-                     "Mamao1":'./Hortifruti/mamao.pdf',"Mamao2":'./Hortifruti/Gabarito_mamao-2.pdf',"Maracujá":'./Hortifruti/maracuja.pdf',"Melancia":'./Hortifruti/melancia.pdf',
+                     "Mamão1":'./Hortifruti/mamao.pdf',"Mamão2":'./Hortifruti/Gabarito_mamao-2.pdf',"Maracujá":'./Hortifruti/maracuja.pdf',"Melancia":'./Hortifruti/melancia.pdf',
                      "Melão1":'./Hortifruti/melao.pdf',"Melão2":'./Hortifruti/gabarito_melao__peledsapo.pdf',"Melão3":'./Hortifruti/gabarito_melao_amarelo.pdf',
                      "Morango":'./Hortifruti/morango.pdf',"Uva1":'./Hortifruti/uva_fina.pdf',"Uva2":'./Hortifruti/uva_rustica.pdf',"Uva3":'./Hortifruti/uva_sem_semente.pdf',
                      "Uva4":'./Hortifruti/uvafina.pdf',"Uva5":'./Hortifruti/gabarito_uva_americana.pdf',"Limão":'./Hortifruti/gabarito_limao-2.pdf',
