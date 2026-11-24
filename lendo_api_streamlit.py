@@ -1246,7 +1246,7 @@ def ViewPDF(wch_fl,compr=1200,larg=950):
 
 
   # Access the uploaded ref via a key.
-  st.file_uploader(wch_fl, type=('pdf'), key='pdf')
+  st.file_uploader(wch_fl, type=('pdf'))
 
   if ss.pdf:
       ss.pdf_ref = ss.pdf  # backup
