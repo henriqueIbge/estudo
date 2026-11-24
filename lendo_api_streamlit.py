@@ -1273,7 +1273,8 @@ def Info():
             st.html(codig6, width=250, unsafe_allow_javascript=True)
           with LINHA2A1[2]:
             codig6b='<!-- Widgets Produtos Cepea - www.cepea.esalq.com.br/br/widget.aspx --><script type="text/javascript" src="https://www.cepea.org.br/br/widgetproduto.js.php?fonte=arial&tamanho=7&largura=300px&corfundo=dbd6b2&cortexto=333333&corlinha=ede7bf&id_indicador%5B%5D=129-10&id_indicador%5B%5D=129-6&id_indicador%5B%5D=129-4&id_indicador%5B%5D=129-5&id_indicador%5B%5D=129-1"></script>'
-            st.html(codig6b, height=250, scrolling=True) 
+            #st.html(codig6b, height=250, scrolling=True)
+            st.html(codig6b, width=250, unsafe_allow_javascript=True)
           with LINHA2A1[3]:
             codig5='<!-- Widgets Produtos Cepea - www.cepea.esalq.com.br/br/widget.aspx --><script type="text/javascript" src="https://www.cepea.org.br/br/widgetproduto.js.php?fonte=arial&tamanho=7&largura=300px&corfundo=dbd6b2&cortexto=333333&corlinha=ede7bf&id_indicador%5B%5D=8&id_indicador%5B%5D=2&id_indicador%5B%5D=181&id_indicador%5B%5D=130&id_indicador%5B%5D=leitep&id_indicador%5B%5D=349-MG&id_indicador%5B%5D=349-NP"></script>'
             #st.html(codig5, height=250, scrolling=True)
