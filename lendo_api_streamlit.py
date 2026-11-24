@@ -1236,7 +1236,8 @@ def ViewPDF(wch_fl,compr=1200,larg=950):
     #pdf_display = f'<embed src="data:application/pdf;base64,{base64_pdf}" width="%s" height="%s" type="application/pdf">'%(compr,larg)
     
     #st.markdown(pdf_display, unsafe_allow_html=True)
-  pdf_display = f'<iframe src="{wch_fl}" width="%s" height="%s" type="application/pdf"></iframe>'%(compr,larg)
+  #pdf_display = f'<iframe src="{wch_fl}" width="%s" height="%s" type="application/pdf"></iframe>'%(compr,larg)
+  pdf_display = f'<embed src="{wch_fl}" width="%s" height="%s" >'%(compr,larg)
   st.markdown(pdf_display, unsafe_allow_html=True)
    
     
