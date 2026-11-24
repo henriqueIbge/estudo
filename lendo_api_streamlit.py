@@ -435,91 +435,91 @@ def info_tabela_escolhida():
 #grafico = px.density_mapbox(tabela, lon="geolocation_lng", lat="geolocation_lat", z="quantidade", mapbox_style="open-street-map",zoom=3, radius=10)
 #grafico.update_layout(margin={"r": 0, "t": 0, "b": 0, "l": 0})
 #grafico.show()
-''''def mapa1():
-  global gdf_muni
-  global junta
-  data_mun_RS= geobr.read_municipality(code_muni='RS',year=2020)
-  gdf_muni=data_mun_RS[data_mun_RS.name_muni=='Porto Alegre']
-  gdf_muni.plot()
-  gdf_muni.crs='EPSG:4326'
-  uc_gdf=geobr.read_conservation_units(date=201909,simplified=True,verbose=True)
-  uc_gdf.crs='EPSG:4326'
-  gpd.options.use_pygeos = True
-  junta=gpd.sjoin(uc_gdf,gdf_muni)
-  fig, ax = plt.subplots(figsize=(10,10))
-  base=gdf_muni.plot(ax=ax,color='white',edgecolor='black')
-  junta.plot(ax=base,column='group',legend=True,cmap='Pastel2')
-  ax.set_title('UCs - Porto Alegre - RS')
-  plt.show()
-  fig.savefig('teste2.png')
-def mapa1_interativo():
-  #-----folium.Map(location=center, zoom_start=1, tiles=None)
-  m=gdf_muni.explore(
-    color='grey',
-    tooltip='name_muni',
-    tooltip_kwds=dict(labels=False),
-    name='Porto Alegre'
-    )
-
-  junta.explore(
-    m=m,
-    column='group',#grupo da UC
-    scheme='naturalbreaks',
-    cmap='Spectral',    
-    style_kwds=dict(color='black'),
-    legend=True,
-    k=200,
-    legend_kwds=dict(colorbar=False),
-    name='UCs'
-    )
-  #----folium.TileLayer('Stamen Toner',control=True).add_to(m)
-  folium.LayerControl().add_to(m)
-  m.save(outfile='teste.html')
-
-def mapa2():
-  br_uf = geobr.read_state()
-  br_uf_d = br_uf.merge(d)
-  f, ax = plt.subplots()
-  f.set_size_inches(16, 16)
-  br_uf_d.plot(
-    ax=ax, # Axis de destino do gráfico
-    column="Área plantada (Hectares)", # Coluna com os valores usados para colorir o mapa
-    cmap="Greens", # Mapa de cores
-    edgecolor="black", # Cor dos contornos
-    linewidth=0.25, # Espessura dos contornos
-  )
-  cax = f.add_axes(
-    [
-        0.82,    # posicao x (entre 0.0 e 1.0)
-        0.18,    # posicao y (entre 0.0 e 1.0)
-        0.03,    # largura x
-        0.40,    # altura y
-    ]
-  )
-  sm = plt.cm.ScalarMappable(
-    cmap="Greens",                                       # Usa o mesmo cmap do mapa
-    norm=plt.Normalize(
-        vmin=br_uf_d["Área plantada (Hectares)"].min(),  # Valor mínimo
-        vmax=br_uf_d["Área plantada (Hectares)"].max(),  # Valor máximo
-    ),
-  )
-  f.colorbar(
-    sm,
-    cax=cax,
-    # Formata a escala do Colorbar
-    format=ticker.FuncFormatter(lambda x, pos: f"{x/1000: >10,.0f} mil ha"),
-  )
-  ax.set_title(
-    "Área plantada de Milho por Estado em 2018",
-    fontdict={"fontsize": 20},
-  )
-  f.text(
-    0.15,                  # Posição x
-    0.20,                  # Posição y
-    "Fonte: IBGE (2020)."  # Texto
-  )
-  #ax.axis("off")
-  f.savefig("TESTE.png")'''
+##def mapa1():
+##  global gdf_muni
+##  global junta
+##  data_mun_RS= geobr.read_municipality(code_muni='RS',year=2020)
+##  gdf_muni=data_mun_RS[data_mun_RS.name_muni=='Porto Alegre']
+##  gdf_muni.plot()
+##  gdf_muni.crs='EPSG:4326'
+##  uc_gdf=geobr.read_conservation_units(date=201909,simplified=True,verbose=True)
+##  uc_gdf.crs='EPSG:4326'
+##  gpd.options.use_pygeos = True
+##  junta=gpd.sjoin(uc_gdf,gdf_muni)
+##  fig, ax = plt.subplots(figsize=(10,10))
+##  base=gdf_muni.plot(ax=ax,color='white',edgecolor='black')
+##  junta.plot(ax=base,column='group',legend=True,cmap='Pastel2')
+##  ax.set_title('UCs - Porto Alegre - RS')
+##  plt.show()
+##  fig.savefig('teste2.png')
+##def mapa1_interativo():
+##  #-----folium.Map(location=center, zoom_start=1, tiles=None)
+##  m=gdf_muni.explore(
+##    color='grey',
+##    tooltip='name_muni',
+##    tooltip_kwds=dict(labels=False),
+##    name='Porto Alegre'
+##    )
+##
+##  junta.explore(
+##    m=m,
+##    column='group',#grupo da UC
+##    scheme='naturalbreaks',
+##    cmap='Spectral',    
+##    style_kwds=dict(color='black'),
+##    legend=True,
+##    k=200,
+##    legend_kwds=dict(colorbar=False),
+##    name='UCs'
+##    )
+##  #----folium.TileLayer('Stamen Toner',control=True).add_to(m)
+##  folium.LayerControl().add_to(m)
+##  m.save(outfile='teste.html')
+##
+##def mapa2():
+##  br_uf = geobr.read_state()
+##  br_uf_d = br_uf.merge(d)
+##  f, ax = plt.subplots()
+##  f.set_size_inches(16, 16)
+##  br_uf_d.plot(
+##    ax=ax, # Axis de destino do gráfico
+##    column="Área plantada (Hectares)", # Coluna com os valores usados para colorir o mapa
+##    cmap="Greens", # Mapa de cores
+##    edgecolor="black", # Cor dos contornos
+##    linewidth=0.25, # Espessura dos contornos
+##  )
+##  cax = f.add_axes(
+##    [
+##        0.82,    # posicao x (entre 0.0 e 1.0)
+##        0.18,    # posicao y (entre 0.0 e 1.0)
+##        0.03,    # largura x
+##        0.40,    # altura y
+##    ]
+##  )
+##  sm = plt.cm.ScalarMappable(
+##    cmap="Greens",                                       # Usa o mesmo cmap do mapa
+##    norm=plt.Normalize(
+##        vmin=br_uf_d["Área plantada (Hectares)"].min(),  # Valor mínimo
+##        vmax=br_uf_d["Área plantada (Hectares)"].max(),  # Valor máximo
+##    ),
+##  )
+##  f.colorbar(
+##    sm,
+##    cax=cax,
+##    # Formata a escala do Colorbar
+##    format=ticker.FuncFormatter(lambda x, pos: f"{x/1000: >10,.0f} mil ha"),
+##  )
+##  ax.set_title(
+##    "Área plantada de Milho por Estado em 2018",
+##    fontdict={"fontsize": 20},
+##  )
+##  f.text(
+##    0.15,                  # Posição x
+##    0.20,                  # Posição y
+##    "Fonte: IBGE (2020)."  # Texto
+##  )
+##  #ax.axis("off")
+##  f.savefig("TESTE.png")
 
 def gif():
   import streamlit as st
