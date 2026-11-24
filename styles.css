@@ -1,0 +1,135 @@
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --color: aqua;
+}
+
+;
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    /*width: 21cm;*/
+    /*height: 29.7cm;*/
+}
+
+.stButton>button {
+    background-color: rgb(73, 4, 4);
+    color: rgb(188, 216, 87);
+
+}
+
+
+
+.stButton>button:hover {
+    background-color: rgb(5, 31, 117);
+    color: rgb(63, 162, 219);
+
+}
+
+
+
+
+
+page {
+    background-color: aqua;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+
+}
+
+
+page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+
+}
+
+page[size="A4"][layout="landscape"] {
+    width: 29.7cm;
+    height: 21cm;
+}
+
+#pagina1 {
+    color: blue;
+}
+
+
+#sele2a {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    /*display: flex;*/
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+    background-color: aqua;
+}
+
+/*div {
+    background-color: #aee2f7;
+}*/
+
+/*.st-emotion-cache-eqffof.e1nzilvr5
+.st-emotion-cache-0.e1f1d6gn0 */
+/*.st-ae {
+    font-size: 12px;
+    color: blue;
+    background-color: #aee2f7;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+    width: 35cm;
+    height: 300cm;
+    left: 35%;
+}
+.map-div{
+    margin: 0 auto;
+    padding: auto;
+    display: flex;
+}
+
+div[role='radiogroup']{
+    font-size:10px;
+    color: blue;
+}
+
+div[role="listbox"] ul {
+    background-color: red;
+}
+
+div.row-widget.stRadio > div[role="radiogroup"] > label[data-baseweb="radio"] > div:first-child {
+    background-color: blue;
+}*/
+
+label{
+    font-size:10px;
+    color: blue;
+};
+
+p{
+    font-size:12px;
+    color: blue;
+};
+/*.block-container{
+    background-color: aqua;
+    width:"700px";
+    height: "200px";
+}*/
+.stTabs{
+    background-color: aqua;
+}
+.tabs-bui3-tabpanel-0{
+    background-color: burlywood;
+}
+
+/*div.element-container.st-emotion-cache.nbi3lp.e1f1d6gn4 [data-test-id='element-container']{
+    height: '10%';
+  
+}*/
+.st-emotion-cache-abycrm.e6zijwc0 {width:300px;}
