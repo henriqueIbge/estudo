@@ -1230,6 +1230,7 @@ def acesso_dados1():
   dados1a[-1].keys()
   variaveis1a=dados1a[-1]['variaveis']
   variaveis1a
+ctkey=0
 def ViewPDF(wch_fl,compr=1200,larg=950):
   #with open(wch_fl,"rb") as pdf_file:
     #base64_pdf = base64.b64encode(pdf_file.read()).decode('utf-8')
@@ -1246,10 +1247,11 @@ def ViewPDF(wch_fl,compr=1200,larg=950):
 
 
   # Access the uploaded ref via a key.
-  st.file_uploader(wch_fl, type=('pdf'))
+  st.file_uploader(wch_fl, type=('pdf'),key='pdf_%s'%ctkey)
 
   if ss.pdf:
       ss.pdf_ref = ss.pdf  # backup
+      ctkey+=1
 
   # Now you can access "pdf_ref" anywhere in your app.
   if ss.pdf_ref:
