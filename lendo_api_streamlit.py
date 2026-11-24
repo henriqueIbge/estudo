@@ -1257,7 +1257,7 @@ def ViewPDF(wch_fl,compr=1200,larg=950):
   # Now you can access "pdf_ref" anywhere in your app.
   if ss.pdf_ref:
       binary_data = ss.pdf_ref.getvalue()
-      pdf_viewer(input=binary_data, width=eval("%s"), height=eval("%s"))%(compr,larg)
+      pdf_viewer(input=binary_data, width=compr, height=larg)
    
     
 dicagrolink={'AC':9822,'AL':9823,'BA':9826,'CE':9827,'DF':9828,
@@ -1540,7 +1540,7 @@ def Info():
         import glob
         caminho='./Forrageiras_ou_daninhas/Plantas_daninhas_Embrapa'
         ler=glob.glob(caminho+'//*')
-        dicherb={"Plantas daninhas 1":'./poster1.pdf',"Plantas daninhas 2":'./poster2.pdf',"Plantas daninhas 3":'./poster3_compressed.pdf', "Forrageiras":'./Forrageiras_ou_daninhas/Cartilha_Forrageiras_Zootécnico_compressed.pdf'}         
+        dicherb={"Plantas daninhas 1":'poster1.pdf',"Plantas daninhas 2":'./poster2.pdf',"Plantas daninhas 3":'./poster3_compressed.pdf', "Forrageiras":'./Forrageiras_ou_daninhas/Cartilha_Forrageiras_Zootécnico_compressed.pdf'}         
         cab1=["Plantas daninhas 1", "Plantas daninhas 2", "Plantas daninhas 3", "Forrageiras"]
         
         for i in range(len(ler)):
