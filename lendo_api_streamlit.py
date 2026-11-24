@@ -15,7 +15,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import geobr
-import pygeos
+#import pygeos
 import geopandas as gpd
 import plotly.express as px
 import base64
@@ -435,7 +435,7 @@ def info_tabela_escolhida():
 #grafico = px.density_mapbox(tabela, lon="geolocation_lng", lat="geolocation_lat", z="quantidade", mapbox_style="open-street-map",zoom=3, radius=10)
 #grafico.update_layout(margin={"r": 0, "t": 0, "b": 0, "l": 0})
 #grafico.show()
-def mapa1():
+''''def mapa1():
   global gdf_muni
   global junta
   data_mun_RS= geobr.read_municipality(code_muni='RS',year=2020)
@@ -519,7 +519,7 @@ def mapa2():
     "Fonte: IBGE (2020)."  # Texto
   )
   #ax.axis("off")
-  f.savefig("TESTE.png")
+  f.savefig("TESTE.png")'''
 
 def gif():
   import streamlit as st
