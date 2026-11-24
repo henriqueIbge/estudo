@@ -27,192 +27,192 @@ tabelas={}
 
         
 #Horticultura
-tabelas[6953]='Número de estabelecimentos agropecuários com horticultura\
-, Quantidade produzida na horticultura, Quantidade vendida de produtos da horticultura\
-\, Valor da produção da horticultura e Valor da venda de produtos da horticultura\
-, por tipologia, produtos da horticultura, condição do produtor em relação às terras\
-e grupos de atividade econômica'
-tabelas[6954]='Número de estabelecimentos agropecuários com horticultura\
-, Quantidade produzida na horticultura, Quantidade vendida de produtos da horticultura\
-, Valor da produção da horticultura e Valor da venda de produtos da horticultura\
-, por tipologia, produtos da horticultura e grupos de área total'
+tabelas[6953]='''Número de estabelecimentos agropecuários com horticultura
+, Quantidade produzida na horticultura, Quantidade vendida de produtos da horticultura
+, Valor da produção da horticultura e Valor da venda de produtos da horticultura
+, por tipologia, produtos da horticultura, condição do produtor em relação às terras
+e grupos de atividade econômica'''
+tabelas[6954]='''Número de estabelecimentos agropecuários com horticultura
+, Quantidade produzida na horticultura, Quantidade vendida de produtos da horticultura
+, Valor da produção da horticultura e Valor da venda de produtos da horticultura
+, por tipologia, produtos da horticultura e grupos de área total'''
 #Lavouras Permanentes
-tabelas[6955]='Produção, Valor da produção, Venda, Valor da venda, Colheita, Área plantada\
-e Efetivos das plantações da lavoura permanente nos estabelecimentos agropecuários\
-, por tipologia, produtos da lavoura permanente, condição do produtor em relação às terras\
-e grupos de atividade econômica'
-tabelas[6956]='Produção, Valor da produção, Venda, Valor da venda, Colheita, Área plantada\
-e Efetivos das plantações da lavoura permanente nos estabelecimentos agropecuários\
-, por tipologia, produtos da lavoura permanente e grupos de área total'
+tabelas[6955]='''Produção, Valor da produção, Venda, Valor da venda, Colheita, Área plantada
+e Efetivos das plantações da lavoura permanente nos estabelecimentos agropecuários
+, por tipologia, produtos da lavoura permanente, condição do produtor em relação às terras
+e grupos de atividade econômica'''
+tabelas[6956]='''Produção, Valor da produção, Venda, Valor da venda, Colheita, Área plantada
+e Efetivos das plantações da lavoura permanente nos estabelecimentos agropecuários
+, por tipologia, produtos da lavoura permanente e grupos de área total'''
 
 #Lavouras Temporárias
-tabelas[6957]='Produção, Valor da produção, Venda, Valor da venda e Área colhida da lavoura\
-temporária nos estabelecimentos agropecuários, por tipologia, produtos da lavoura temporária\
-, condição do produtor em relação às terras e grupos de atividade econômica'
-tabelas[6958]='Produção, Valor da produção, Venda, Valor da venda e Área colhida da lavoura\
-temporária nos estabelecimentos agropecuários, por tipologia, produtos da lavoura temporária\
-, tipo de semente e grupos de área colhida'
-tabelas[6959]='Produção, Valor da produção, Venda, Valor da venda e Área colhida da lavoura temporária\
-nos estabelecimentos agropecuários, por tipologia, produtos da lavoura temporária e grupos\
-de área total'
+tabelas[6957]='''Produção, Valor da produção, Venda, Valor da venda e Área colhida da lavoura
+temporária nos estabelecimentos agropecuários, por tipologia, produtos da lavoura temporária
+, condição do produtor em relação às terras e grupos de atividade econômica'''
+tabelas[6958]='''Produção, Valor da produção, Venda, Valor da venda e Área colhida da lavoura
+temporária nos estabelecimentos agropecuários, por tipologia, produtos da lavoura temporária
+, tipo de semente e grupos de área colhida'''
+tabelas[6959]='''Produção, Valor da produção, Venda, Valor da venda e Área colhida da lavoura temporária
+nos estabelecimentos agropecuários, por tipologia, produtos da lavoura temporária e grupos
+de área total'''
 #movimentação financeira
-tabelas[6895]='Número de estabelecimentos agropecuários que obtiveram financiamento, por tipologia\
-, agente financeiro responsável pelo financiamento, condição do produtor em relação às terras\
-, grupos de atividade econômica, recursos provenientes de programas governamentais de crédito\
-e grupos de área total'	
-tabelas[6896]='Número de estabelecimentos agropecuários que obtiveram financiamento, por tipologia\
-, finalidade do financiamento, condição do produtor em relação às terras, agente financeiro responsável pelo financiamento\
-, grupos de atividade econômica e grupos de área total'	
-tabelas[6897]='Número de estabelecimentos agropecuários com produção e Valor da produção dos estabelecimentos\
-agropecuários, por tipologia, tipo de produção, condição do produtor em relação às terras\
-e grupos de atividade econômica'
-tabelas[6898]='Número de estabelecimentos agropecuários com produção e Valor da produção dos estabelecimentos\
-agropecuários, por tipologia, tipo de produção, classes de valor da produção e grupos de área total'
-tabelas[6899]='Número de estabelecimentos agropecuários que realizaram despesas e Valor das despesas\
-realizadas pelos estabelecimentos agropecuários, por tipologia, tipo de despesa, condição do produtor\
-em relação às terras e grupos de atividade econômica'
-tabelas[6900]='Número de estabelecimentos agropecuários que realizaram despesas e Valor das despesas\
-realizadas pelos estabelecimentos agropecuários, por tipologia, tipo de despesa e grupos de área total'
-tabelas[6901]='Número de estabelecimentos agropecuários que obtiveram receitas ou com outras rendas\
-do produtor e Valor das receitas ou rendas obtidas pelos estabelecimentos agropecuários, por tipologia\
-, receitas do estabelecimento e outras rendas do produtor, condição do produtor em relação às terras\
-e grupos de atividade econômica'
-tabelas[6902]='Número de estabelecimentos agropecuários que obtiveram receitas ou com outras rendas\
-do produtor e Valor das receitas ou rendas obtidas pelos estabelecimentos agropecuários, por tipologia\
-, receitas do estabelecimento e outras rendas do produtor e grupos de área total'
+tabelas[6895]='''Número de estabelecimentos agropecuários que obtiveram financiamento, por tipologia
+, agente financeiro responsável pelo financiamento, condição do produtor em relação às terras
+, grupos de atividade econômica, recursos provenientes de programas governamentais de crédito
+e grupos de área total'''	
+tabelas[6896]='''Número de estabelecimentos agropecuários que obtiveram financiamento, por tipologia
+, finalidade do financiamento, condição do produtor em relação às terras, agente financeiro responsável pelo financiamento
+, grupos de atividade econômica e grupos de área total'''
+tabelas[6897]='''Número de estabelecimentos agropecuários com produção e Valor da produção dos estabelecimentos
+agropecuários, por tipologia, tipo de produção, condição do produtor em relação às terras
+e grupos de atividade econômica'''
+tabelas[6898]='''Número de estabelecimentos agropecuários com produção e Valor da produção dos estabelecimentos
+agropecuários, por tipologia, tipo de produção, classes de valor da produção e grupos de área total'''
+tabelas[6899]='''Número de estabelecimentos agropecuários que realizaram despesas e Valor das despesas
+realizadas pelos estabelecimentos agropecuários, por tipologia, tipo de despesa, condição do produtor
+em relação às terras e grupos de atividade econômica'''
+tabelas[6900]='''Número de estabelecimentos agropecuários que realizaram despesas e Valor das despesas
+realizadas pelos estabelecimentos agropecuários, por tipologia, tipo de despesa e grupos de área total'''
+tabelas[6901]='''Número de estabelecimentos agropecuários que obtiveram receitas ou com outras rendas
+do produtor e Valor das receitas ou rendas obtidas pelos estabelecimentos agropecuários, por tipologia
+, receitas do estabelecimento e outras rendas do produtor, condição do produtor em relação às terras
+e grupos de atividade econômica'''
+tabelas[6902]='''Número de estabelecimentos agropecuários que obtiveram receitas ou com outras rendas
+do produtor e Valor das receitas ou rendas obtidas pelos estabelecimentos agropecuários, por tipologia
+, receitas do estabelecimento e outras rendas do produtor e grupos de área total'''
 #pecuaria
-tabelas[6906]='Número de estabelecimentos agropecuários, por tipologia, controle de doenças e/ou parasitas\
-, suplementação alimentar e beneficiamento, condição do produtor em relação às terras, origem da orientação técnica\
-recebida e grupos de área total'
-tabelas[6907]='Número de estabelecimentos agropecuários com efetivo da pecuária e Número de cabeças, por tipologia\
-, espécie da pecuária e condição do produtor em relação às terras'
-tabelas[6908]='Número de estabelecimentos agropecuários com efetivo da pecuária e Número de cabeças, por tipologia\
-, espécie da pecuária, grupos de atividade econômica e grupos de área total'
-tabelas[6910]='Número de estabelecimentos agropecuários com bovinos, Efetivos e Venda, por tipologia, condição do produtor\
-em relação às terras, grupos de cabeças de bovinos e grupos de atividade econômica'
-tabelas[6911]='Número de estabelecimentos agropecuários com bovinos, Efetivos e Venda, por tipologia, grupos de área de pastagem\
-e grupos de área total'
-tabelas[6912]='Número de estabelecimentos agropecuários que produziram leite de vaca, Vacas ordenhadas nos estabelecimentos agropecuários\
-, Quantidade produzida de leite de vaca, Valor da produção de leite de vaca, Número de estabelecimentos agropecuários que venderam leite de vaca cru\
-, Quantidade vendida de leite de vaca cru e Valor da venda de leite de vaca cru, por tipologia, condição do produtor em relação às terras\
-e grupos de cabeças de bovinos'
-tabelas[6913]='Número de estabelecimentos agropecuários que produziram leite de vaca, Vacas ordenhadas nos estabelecimentos agropecuários\
-, Quantidade produzida de leite de vaca, Valor da produção de leite de vaca, Número de estabelecimentos agropecuários que venderam leite de vaca cru\
-, Quantidade vendida de leite de vaca cru e Valor da venda de leite de vaca cru, por tipologia, grupos de atividade econômica e grupos de área total'
-tabelas[6918]='Número de estabelecimentos agropecuários com bubalinos, Efetivos, Venda e Produção de leite, por tipologia, condição do produtor em relação às terras\
-, sexo do produtor e grupo de cabeças de bubalinos'
-tabelas[6919]='Número de estabelecimentos agropecuários com bubalinos, Efetivos, Venda e Produção de leite, por tipologia, grupos de atividade econômica\
-e grupos de área total'
-tabelas[6920]='Número de estabelecimentos agropecuários com equinos, Número de cabeças de equinos nos estabelecimentos agropecuários, Número de estabelecimentos agropecuários\
-que venderam equinos, Número de cabeças de equinos vendidas nos estabelecimentos agropecuários e Valor da venda de cabeças de equinos nos estabelecimentos agropecuários, por tipologia\
-, condição do produtor em relação às terras e grupos de cabeças de equinos'
-tabelas[6921]='Número de estabelecimentos agropecuários com equinos, Número de cabeças de equinos nos estabelecimentos agropecuários, Número de estabelecimentos agropecuários\
-que venderam equinos, Número de cabeças de equinos vendidas nos estabelecimentos agropecuários e Valor da venda de cabeças de equinos nos estabelecimentos agropecuários, por tipologia\
-, grupos de atividade econômica e grupos de área total'
-tabelas[6922]='Número de estabelecimentos agropecuários com asininos, Número de cabeças de asininos nos estabelecimentos agropecuários, Número de estabelecimentos agropecuários\
-que venderam asininos, Número de cabeças de asininos vendidas nos estabelecimentos agropecuários e Valor da venda de cabeças de asininos nos estabelecimentos agropecuários\
-, por tipologia, condição do produtor em relação às terras e grupos de cabeças de asininos'
-tabelas[6923]='Número de estabelecimentos agropecuários com asininos, Número de cabeças de asininos nos estabelecimentos agropecuários\
-, Número de estabelecimentos agropecuários que venderam asininos, Número de cabeças de asininos vendidas nos estabelecimentos agropecuários\
-e Valor da venda de cabeças de asininos nos estabelecimentos agropecuários, por tipologia, grupos de atividade econômica e grupos de área total'
-tabelas[6924]='Número de estabelecimentos agropecuários com muares, Número de cabeças de muares nos estabelecimentos agropecuários, Número de estabelecimentos agropecuários\
-que venderam muares, Número de cabeças de muares vendidas nos estabelecimentos agropecuários e Valor da venda de cabeças de muares nos estabelecimentos agropecuários, por tipologia\
-, condição do produtor em relação às terras e grupos de cabeças de muares'
-tabelas[6925]='Número de estabelecimentos agropecuários com muares, Número de cabeças de muares nos estabelecimentos agropecuários, Número de estabelecimentos agropecuários\
-que venderam muares, Número de cabeças de muares vendidas nos estabelecimentos agropecuários e Valor da venda de cabeças de muares nos estabelecimentos agropecuários\
-, por tipologia, grupos de atividade econômica e grupos de área total'
-tabelas[6926]='Número de estabelecimentos agropecuários com suínos, Efetivos e Venda, por tipologia, condição do produtor em relação às terras e grupo de cabeças de suínos'
-tabelas[6927]='Número de estabelecimentos agropecuários com suínos, Efetivos e Venda, por tipologia, grupos de atividade econômica e grupos de área total'
-tabelas[6928]='Número de estabelecimentos agropecuários com caprinos, Efetivos, Venda e Produção de leite, por tipologia, condição do produtor\
-em relação às terras e grupo de cabeças de caprinos'
-tabelas[6929]='Número de estabelecimentos agropecuários com caprinos, Efetivos, Venda e Produção de leite, por tipologia, grupos de atividade econômica e grupos de área total'
-tabelas[6930]='Número de estabelecimentos agropecuários com ovinos, Efetivos, Venda, Produção de lã e Produção de leite, por tipologia\
-, condição do produtor em relação às terras e grupo de cabeças de ovinos'
-tabelas[6931]='Número de estabelecimentos agropecuários com ovinos, Efetivos, Venda, Produção de lã e Produção de leite,\
-por tipologia, grupos de atividade econômica e grupos de área total'
-tabelas[6933]='Número de estabelecimentos agropecuários com codornas, Efetivos, Produção de ovos de codorna e Venda de ovos de codorna\
-, por tipologia, condição do produtor em relação às terras, grupos de atividade econômica e grupos de área total'
-tabelas[6934]='Número de estabelecimentos agropecuários com coelhos, Número de cabeças de coelhos nos estabelecimentos agropecuários\
-, Número de cabeças de coelhos vendidas nos estabelecimentos agropecuários e Valor da venda de cabeças de coelhos nos estabelecimentos agropecuários\
-, por tipologia, condição do produtor em relação às terras, grupos de atividade econômica e grupos de área total'
-tabelas[6935]='Número de estabelecimentos agropecuários com apicultura e Venda de produtos, Total de caixas de abelha e Quantidade de mel\
-e cera de abelha, geleia real, própolis e pólen vendidos, por tipologia, condição do produtor em relação às terras, grupos de atividade econômica\
-e grupos de área total'
-tabelas[6936]='Número de estabelecimentos agropecuários com sericicultura, Produção e Venda de casulos de bicho-da-seda, por tipologia\
-, condição do produtor em relação às terras, grupos de atividade econômica e grupos de área total'
-tabelas[6937]='Número de estabelecimentos agropecuários que venderam produtos da aquicultura, Quantidade vendida de produtos da aquicultura\
-e Valor da venda de produtos da aquicultura, por tipologia, espécie criada na aquicultura, condição do produtor em relação às terras\
-, grupos de atividade econômica e grupos de área total'
-tabelas[6938]='Número de estabelecimentos agropecuários com aquicultura, por tipologia, espécie criada na aquicultura, condição do produtor\
-em relação às terras, grupos de atividade econômica e grupos de área total'
-tabelas[6939]='Número de estabelecimentos agropecuários com ranicultura, Quantidade vendida de carne de rãs e Valor da venda de carne de rãs\
-, por tipologia, condição do produtor em relação às terras, grupos de atividade econômica e grupos de área total'
-tabelas[6940]='Número de estabelecimentos agropecuários com galinhas, galos, frangos, frangas e pintos\
-, Efetivos, Venda, Produção de ovos e Venda de ovos, por tipologia, grupos de cabeças e condição do produtor em relação às terras'
-tabelas[6941]='Número de estabelecimentos agropecuários com galinhas, galos, frangos, frangas e pintos, Efetivos\
-, Venda, Produção de ovos e Venda de ovos, por tipologia, grupos de cabeças e grupos de atividade econômica'
-tabelas[6942]='Número de estabelecimentos agropecuários com galinhas, galos, frangos, frangas e pintos, Efetivos, Venda\
-, Produção de ovos e Venda de ovos, por tipologia, grupos de cabeças e grupos de área total'
-tabelas[6943]='Número de estabelecimentos agropecuários com mais de 200 cabeças de galinhas, galos, frangos, frangas e pintos\
-, Efetivos e composição do plantel na data de referência, por tipologia, condição do produtor em relação às terras e grupos de cabeças'
-tabelas[6944]='Número de estabelecimentos agropecuários com mais de 200 cabeças de galinhas, galos, frangos, frangas e pintos\
-, Efetivos e composição do plantel na data de referência, por tipologia, grupos de atividade econômica e grupos de área total'
+tabelas[6906]='''Número de estabelecimentos agropecuários, por tipologia, controle de doenças e/ou parasitas
+, suplementação alimentar e beneficiamento, condição do produtor em relação às terras, origem da orientação técnica
+recebida e grupos de área total'''
+tabelas[6907]='''Número de estabelecimentos agropecuários com efetivo da pecuária e Número de cabeças, por tipologia
+, espécie da pecuária e condição do produtor em relação às terras'''
+tabelas[6908]='''Número de estabelecimentos agropecuários com efetivo da pecuária e Número de cabeças, por tipologia
+, espécie da pecuária, grupos de atividade econômica e grupos de área total'''
+tabelas[6910]='''Número de estabelecimentos agropecuários com bovinos, Efetivos e Venda, por tipologia, condição do produtor
+em relação às terras, grupos de cabeças de bovinos e grupos de atividade econômica'''
+tabelas[6911]='''Número de estabelecimentos agropecuários com bovinos, Efetivos e Venda, por tipologia, grupos de área de pastagem
+e grupos de área total'''
+tabelas[6912]='''Número de estabelecimentos agropecuários que produziram leite de vaca, Vacas ordenhadas nos estabelecimentos agropecuários
+, Quantidade produzida de leite de vaca, Valor da produção de leite de vaca, Número de estabelecimentos agropecuários que venderam leite de vaca cru
+, Quantidade vendida de leite de vaca cru e Valor da venda de leite de vaca cru, por tipologia, condição do produtor em relação às terras
+e grupos de cabeças de bovinos'''
+tabelas[6913]='''Número de estabelecimentos agropecuários que produziram leite de vaca, Vacas ordenhadas nos estabelecimentos agropecuários
+, Quantidade produzida de leite de vaca, Valor da produção de leite de vaca, Número de estabelecimentos agropecuários que venderam leite de vaca cru
+, Quantidade vendida de leite de vaca cru e Valor da venda de leite de vaca cru, por tipologia, grupos de atividade econômica e grupos de área total'''
+tabelas[6918]='''Número de estabelecimentos agropecuários com bubalinos, Efetivos, Venda e Produção de leite, por tipologia, condição do produtor em relação às terras
+, sexo do produtor e grupo de cabeças de bubalinos'''
+tabelas[6919]='''Número de estabelecimentos agropecuários com bubalinos, Efetivos, Venda e Produção de leite, por tipologia, grupos de atividade econômica
+e grupos de área total'''
+tabelas[6920]='''Número de estabelecimentos agropecuários com equinos, Número de cabeças de equinos nos estabelecimentos agropecuários, Número de estabelecimentos agropecuários
+que venderam equinos, Número de cabeças de equinos vendidas nos estabelecimentos agropecuários e Valor da venda de cabeças de equinos nos estabelecimentos agropecuários, por tipologia
+, condição do produtor em relação às terras e grupos de cabeças de equinos'''
+tabelas[6921]='''Número de estabelecimentos agropecuários com equinos, Número de cabeças de equinos nos estabelecimentos agropecuários, Número de estabelecimentos agropecuários
+que venderam equinos, Número de cabeças de equinos vendidas nos estabelecimentos agropecuários e Valor da venda de cabeças de equinos nos estabelecimentos agropecuários, por tipologia
+, grupos de atividade econômica e grupos de área total'''
+tabelas[6922]='''Número de estabelecimentos agropecuários com asininos, Número de cabeças de asininos nos estabelecimentos agropecuários, Número de estabelecimentos agropecuários
+que venderam asininos, Número de cabeças de asininos vendidas nos estabelecimentos agropecuários e Valor da venda de cabeças de asininos nos estabelecimentos agropecuários
+, por tipologia, condição do produtor em relação às terras e grupos de cabeças de asininos'''
+tabelas[6923]='''Número de estabelecimentos agropecuários com asininos, Número de cabeças de asininos nos estabelecimentos agropecuários
+, Número de estabelecimentos agropecuários que venderam asininos, Número de cabeças de asininos vendidas nos estabelecimentos agropecuários
+e Valor da venda de cabeças de asininos nos estabelecimentos agropecuários, por tipologia, grupos de atividade econômica e grupos de área total'''
+tabelas[6924]='''Número de estabelecimentos agropecuários com muares, Número de cabeças de muares nos estabelecimentos agropecuários, Número de estabelecimentos agropecuários
+que venderam muares, Número de cabeças de muares vendidas nos estabelecimentos agropecuários e Valor da venda de cabeças de muares nos estabelecimentos agropecuários, por tipologia
+, condição do produtor em relação às terras e grupos de cabeças de muares'''
+tabelas[6925]='''Número de estabelecimentos agropecuários com muares, Número de cabeças de muares nos estabelecimentos agropecuários, Número de estabelecimentos agropecuários
+que venderam muares, Número de cabeças de muares vendidas nos estabelecimentos agropecuários e Valor da venda de cabeças de muares nos estabelecimentos agropecuários
+, por tipologia, grupos de atividade econômica e grupos de área total'''
+tabelas[6926]='''Número de estabelecimentos agropecuários com suínos, Efetivos e Venda, por tipologia, condição do produtor em relação às terras e grupo de cabeças de suínos'''
+tabelas[6927]='''Número de estabelecimentos agropecuários com suínos, Efetivos e Venda, por tipologia, grupos de atividade econômica e grupos de área total'''
+tabelas[6928]='''Número de estabelecimentos agropecuários com caprinos, Efetivos, Venda e Produção de leite, por tipologia, condição do produtor
+em relação às terras e grupo de cabeças de caprinos'''
+tabelas[6929]='''Número de estabelecimentos agropecuários com caprinos, Efetivos, Venda e Produção de leite, por tipologia, grupos de atividade econômica e grupos de área total'''
+tabelas[6930]='''Número de estabelecimentos agropecuários com ovinos, Efetivos, Venda, Produção de lã e Produção de leite, por tipologia
+, condição do produtor em relação às terras e grupo de cabeças de ovinos'''
+tabelas[6931]='''Número de estabelecimentos agropecuários com ovinos, Efetivos, Venda, Produção de lã e Produção de leite,
+por tipologia, grupos de atividade econômica e grupos de área total'''
+tabelas[6933]='''Número de estabelecimentos agropecuários com codornas, Efetivos, Produção de ovos de codorna e Venda de ovos de codorna
+, por tipologia, condição do produtor em relação às terras, grupos de atividade econômica e grupos de área total'''
+tabelas[6934]='''Número de estabelecimentos agropecuários com coelhos, Número de cabeças de coelhos nos estabelecimentos agropecuários
+, Número de cabeças de coelhos vendidas nos estabelecimentos agropecuários e Valor da venda de cabeças de coelhos nos estabelecimentos agropecuários
+, por tipologia, condição do produtor em relação às terras, grupos de atividade econômica e grupos de área total'''
+tabelas[6935]='''Número de estabelecimentos agropecuários com apicultura e Venda de produtos, Total de caixas de abelha e Quantidade de mel
+e cera de abelha, geleia real, própolis e pólen vendidos, por tipologia, condição do produtor em relação às terras, grupos de atividade econômica
+e grupos de área total'''
+tabelas[6936]='''Número de estabelecimentos agropecuários com sericicultura, Produção e Venda de casulos de bicho-da-seda, por tipologia
+, condição do produtor em relação às terras, grupos de atividade econômica e grupos de área total'''
+tabelas[6937]='''Número de estabelecimentos agropecuários que venderam produtos da aquicultura, Quantidade vendida de produtos da aquicultura
+e Valor da venda de produtos da aquicultura, por tipologia, espécie criada na aquicultura, condição do produtor em relação às terras
+, grupos de atividade econômica e grupos de área total'''
+tabelas[6938]='''Número de estabelecimentos agropecuários com aquicultura, por tipologia, espécie criada na aquicultura, condição do produtor
+em relação às terras, grupos de atividade econômica e grupos de área total'''
+tabelas[6939]='''Número de estabelecimentos agropecuários com ranicultura, Quantidade vendida de carne de rãs e Valor da venda de carne de rãs
+, por tipologia, condição do produtor em relação às terras, grupos de atividade econômica e grupos de área total'''
+tabelas[6940]='''Número de estabelecimentos agropecuários com galinhas, galos, frangos, frangas e pintos
+, Efetivos, Venda, Produção de ovos e Venda de ovos, por tipologia, grupos de cabeças e condição do produtor em relação às terras'''
+tabelas[6941]='''Número de estabelecimentos agropecuários com galinhas, galos, frangos, frangas e pintos, Efetivos
+, Venda, Produção de ovos e Venda de ovos, por tipologia, grupos de cabeças e grupos de atividade econômica'''
+tabelas[6942]='''Número de estabelecimentos agropecuários com galinhas, galos, frangos, frangas e pintos, Efetivos, Venda
+, Produção de ovos e Venda de ovos, por tipologia, grupos de cabeças e grupos de área total'''
+tabelas[6943]='''Número de estabelecimentos agropecuários com mais de 200 cabeças de galinhas, galos, frangos, frangas e pintos
+, Efetivos e composição do plantel na data de referência, por tipologia, condição do produtor em relação às terras e grupos de cabeças'''
+tabelas[6944]='''Número de estabelecimentos agropecuários com mais de 200 cabeças de galinhas, galos, frangos, frangas e pintos
+, Efetivos e composição do plantel na data de referência, por tipologia, grupos de atividade econômica e grupos de área total'''
 #pessoal ocupado
-tabelas[6884]='Número de estabelecimentos agropecuários com pessoal ocupado, Pessoal ocupado em estabelecimentos agropecuários\
-, Número de estabelecimentos agropecuários com pessoal ocupado com laço de parentesco com o produtor e Pessoal ocupado em estabelecimentos\
-agropecuários com laço de parentesco com o produtor, por tipologia, sexo, faixas de idade, condição do produtor\
-em relação às terras e grupos de atividade econômica'
-tabelas[6885]='Número de estabelecimentos agropecuários com pessoal ocupado, total, com laço e sem laço de parentesco com o produtor\
-e Pessoal ocupado em estabelecimentos agropecuários com laço e sem laço de parentesco com o produtor, total, permanentes, temporários\
-e parceiros, por tipologia, sexo, faixas de idade e grupos de área total'
-tabelas[6886]='Número de estabelecimentos agropecuários com pessoal ocupado sem laço de parentesco com o produtor\
-e Pessoal ocupado em estabelecimentos agropecuários sem laço de parentesco com o produtor, total, permanentes, temporários e parceiros\
-, por tipologia, sexo, faixas de idade, condição do produtor em relação às terras e grupos de pessoal ocupado'
-tabelas[6887]='Número de estabelecimentos agropecuários com pessoal ocupado e Pessoal ocupado em estabelecimentos agropecuários, por tipologia\
-, tipo de pessoal ocupado e grupos e classes de atividade'
-tabelas[6888]='Número de estabelecimentos agropecuários e Pessoal ocupado em estabelecimentos agropecuários, por tipologia, tipo de pessoal ocupado\
-, classes de dias trabalhados, condição do produtor em relação às terras e grupos de atividade econômica'
-tabelas[6889]='Número de estabelecimentos agropecuários e Pessoal ocupado em estabelecimentos agropecuários, por tipologia, tipo de pessoal ocupado\
-, classes de dias trabalhados, sexo do produtor e grupos de área total'	
-tabelas[6890]='Número de estabelecimentos agropecuários, por tipologia, tipo de intermediador, condição do produtor em relação às terras\
-, grupos de atividade econômica e grupos de área total'	
-tabelas[6891]='Número de estabelecimentos agropecuários, por tipologia, classes de dias de utilização da mão-de-obra\
-com intermediação de empreiteiro, condição do produtor em relação às terras, grupos de atividade econômica e grupos de área total'
+tabelas[6884]='''Número de estabelecimentos agropecuários com pessoal ocupado, Pessoal ocupado em estabelecimentos agropecuários
+, Número de estabelecimentos agropecuários com pessoal ocupado com laço de parentesco com o produtor e Pessoal ocupado em estabelecimentos
+agropecuários com laço de parentesco com o produtor, por tipologia, sexo, faixas de idade, condição do produtor
+em relação às terras e grupos de atividade econômica'''
+tabelas[6885]='''Número de estabelecimentos agropecuários com pessoal ocupado, total, com laço e sem laço de parentesco com o produtor
+e Pessoal ocupado em estabelecimentos agropecuários com laço e sem laço de parentesco com o produtor, total, permanentes, temporários
+e parceiros, por tipologia, sexo, faixas de idade e grupos de área total'''
+tabelas[6886]='''Número de estabelecimentos agropecuários com pessoal ocupado sem laço de parentesco com o produtor
+e Pessoal ocupado em estabelecimentos agropecuários sem laço de parentesco com o produtor, total, permanentes, temporários e parceiros
+, por tipologia, sexo, faixas de idade, condição do produtor em relação às terras e grupos de pessoal ocupado'''
+tabelas[6887]='''Número de estabelecimentos agropecuários com pessoal ocupado e Pessoal ocupado em estabelecimentos agropecuários, por tipologia
+, tipo de pessoal ocupado e grupos e classes de atividade'''
+tabelas[6888]='''Número de estabelecimentos agropecuários e Pessoal ocupado em estabelecimentos agropecuários, por tipologia, tipo de pessoal ocupado
+, classes de dias trabalhados, condição do produtor em relação às terras e grupos de atividade econômica'''
+tabelas[6889]='''Número de estabelecimentos agropecuários e Pessoal ocupado em estabelecimentos agropecuários, por tipologia, tipo de pessoal ocupado
+, classes de dias trabalhados, sexo do produtor e grupos de área total'''	
+tabelas[6890]='''Número de estabelecimentos agropecuários, por tipologia, tipo de intermediador, condição do produtor em relação às terras
+, grupos de atividade econômica e grupos de área total'''	
+tabelas[6891]='''Número de estabelecimentos agropecuários, por tipologia, classes de dias de utilização da mão-de-obra
+com intermediação de empreiteiro, condição do produtor em relação às terras, grupos de atividade econômica e grupos de área total'''
 #silvicultura
-tabelas[6945]='Número de estabelecimentos agropecuários com espécies da silvicultura, Área cortada de espécies da silvicultura\
-e Número de pés existentes nos estabelecimentos agropecuários, por tipologia, espécies da silvicultura\
-, condição do produtor em relação às terras e grupos de atividade econômica'
-tabelas[6946]='Número de estabelecimentos agropecuários com espécies da silvicultura, Área cortada de espécies da silvicultura\
-e Número de pés existentes nos estabelecimentos agropecuários, por tipologia, espécies da silvicultura e grupos de área total'
-tabelas[6947]='Número de estabelecimentos agropecuários com produtos da silvicultura, Quantidade produzida na silvicultura\
-, Quantidade vendida de produtos da silvicultura, Valor da produção na silvicultura e Valor da venda de produtos da silvicultura\
-, por tipologia, produtos da silvicultura, condição do produtor em relação às terras e grupos de atividade econômica'
-tabelas[6948]='Número de estabelecimentos agropecuários com produtos da silvicultura, Quantidade produzida na silvicultura\
-, Quantidade vendida de produtos da silvicultura, Valor da produção na silvicultura e Valor da venda de produtos da silvicultura\
-, por tipologia, produtos da silvicultura e grupos de área total'
+tabelas[6945]='''Número de estabelecimentos agropecuários com espécies da silvicultura, Área cortada de espécies da silvicultura
+e Número de pés existentes nos estabelecimentos agropecuários, por tipologia, espécies da silvicultura
+, condição do produtor em relação às terras e grupos de atividade econômica'''
+tabelas[6946]='''Número de estabelecimentos agropecuários com espécies da silvicultura, Área cortada de espécies da silvicultura
+e Número de pés existentes nos estabelecimentos agropecuários, por tipologia, espécies da silvicultura e grupos de área total'''
+tabelas[6947]='''Número de estabelecimentos agropecuários com produtos da silvicultura, Quantidade produzida na silvicultura
+, Quantidade vendida de produtos da silvicultura, Valor da produção na silvicultura e Valor da venda de produtos da silvicultura
+, por tipologia, produtos da silvicultura, condição do produtor em relação às terras e grupos de atividade econômica'''
+tabelas[6948]='''Número de estabelecimentos agropecuários com produtos da silvicultura, Quantidade produzida na silvicultura
+, Quantidade vendida de produtos da silvicultura, Valor da produção na silvicultura e Valor da venda de produtos da silvicultura
+, por tipologia, produtos da silvicultura e grupos de área total'''
 #confederação da agricultura e pecuária CNA
-tabelas[6836]='Número de estabelecimentos agropecuários com espécies da silvicultura, Área total dos estabelecimentos agropecuários\
-com espécies da silvicultura, Número de pés existentes nos estabelecimentos agropecuários e Área cortada de espécies da silvicultura\
-, por espécies da silvicultura, associação do produtor à cooperativa e/ou à entidade de classe, condição legal do produtor e grupos de área total'
-tabelas[6962]='Número de estabelecimentos agropecuários e Área dos estabelecimentos agropecuários, por produtor possui DAP (Declaração de Aptidão ao PRONAF)\
-, uso de calcário e/ou outros corretivos do pH do solo, telefone, e-mail e internet e grupos de área total'
-tabelas[6963]='Número de estabelecimentos agropecuários com uso de irrigação e Pessoal ocupado em estabelecimentos agropecuários com uso de irrigação\
-, por método utilizado para irrigação, escolaridade do produtor, classes de dias trabalhados e grupos de área total'
-tabelas[6964]='Número de estabelecimentos agropecuários com uso de irrigação, por método utilizado para irrigação, escolaridade do produtor\
-, existência de energia elétrica, tipo de intermediador e grupos de área total	2017'
-tabelas[6965]='Número de estabelecimentos agropecuários com lavoura temporária, Área total dos estabelecimentos agropecuários com lavoura temporária\
-, Quantidade produzida nas lavouras temporárias e Área colhida nas lavouras temporárias, por produtos da lavoura temporária\
-, origem da orientação técnica recebida e grupos de área total'	
-tabelas[6966]='Produção, Venda, Colheita, Área plantada e Efetivos das plantações da lavoura permanente nos estabelecimentos agropecuários\
-, por produtos da lavoura permanente, origem da orientação técnica recebida e grupos de área total'
-tabelas[6874]='Número de estabelecimentos agropecuários e Número de tratores, implementos e máquinas existentes nos estabelecimentos agropecuários\
-, por tipologia, tratores, implementos e máquinas existentes no estabelecimento agropecuário, grupos de área de lavoura e grupos de área total'	
-tabelas[6877]='Número de estabelecimentos agropecuários com veículos e Número de veículos existentes nos estabelecimentos agropecuários, por tipologia\
-, veículos existentes no estabelecimento agropecuário, grupos de área de lavoura e grupos de área total'
-tabelas[6895]='Número de estabelecimentos agropecuários que obtiveram financiamento, por tipologia, agente financeiro responsável pelo financiamento\
-, condição do produtor em relação às terras, grupos de atividade econômica, recursos provenientes de programas governamentais de crédito e grupos de área total'
-tabelas[6896]='Número de estabelecimentos agropecuários que obtiveram financiamento, por tipologia, finalidade do financiamento\
-, condição do produtor em relação às terras, agente financeiro responsável pelo financiamento, grupos de atividade econômica e grupos de área total'
+tabelas[6836]='''Número de estabelecimentos agropecuários com espécies da silvicultura, Área total dos estabelecimentos agropecuários
+com espécies da silvicultura, Número de pés existentes nos estabelecimentos agropecuários e Área cortada de espécies da silvicultura
+, por espécies da silvicultura, associação do produtor à cooperativa e/ou à entidade de classe, condição legal do produtor e grupos de área total'''
+tabelas[6962]='''Número de estabelecimentos agropecuários e Área dos estabelecimentos agropecuários, por produtor possui DAP (Declaração de Aptidão ao PRONAF)
+, uso de calcário e/ou outros corretivos do pH do solo, telefone, e-mail e internet e grupos de área total'''
+tabelas[6963]='''Número de estabelecimentos agropecuários com uso de irrigação e Pessoal ocupado em estabelecimentos agropecuários com uso de irrigação
+, por método utilizado para irrigação, escolaridade do produtor, classes de dias trabalhados e grupos de área total'''
+tabelas[6964]='''Número de estabelecimentos agropecuários com uso de irrigação, por método utilizado para irrigação, escolaridade do produtor
+, existência de energia elétrica, tipo de intermediador e grupos de área total	2017'''
+tabelas[6965]='''Número de estabelecimentos agropecuários com lavoura temporária, Área total dos estabelecimentos agropecuários com lavoura temporária
+, Quantidade produzida nas lavouras temporárias e Área colhida nas lavouras temporárias, por produtos da lavoura temporária
+, origem da orientação técnica recebida e grupos de área total'''
+tabelas[6966]='''Produção, Venda, Colheita, Área plantada e Efetivos das plantações da lavoura permanente nos estabelecimentos agropecuários
+, por produtos da lavoura permanente, origem da orientação técnica recebida e grupos de área total'''
+tabelas[6874]='''Número de estabelecimentos agropecuários e Número de tratores, implementos e máquinas existentes nos estabelecimentos agropecuários
+, por tipologia, tratores, implementos e máquinas existentes no estabelecimento agropecuário, grupos de área de lavoura e grupos de área total'''	
+tabelas[6877]='''Número de estabelecimentos agropecuários com veículos e Número de veículos existentes nos estabelecimentos agropecuários, por tipologia
+, veículos existentes no estabelecimento agropecuário, grupos de área de lavoura e grupos de área total'''
+tabelas[6895]='''Número de estabelecimentos agropecuários que obtiveram financiamento, por tipologia, agente financeiro responsável pelo financiamento
+, condição do produtor em relação às terras, grupos de atividade econômica, recursos provenientes de programas governamentais de crédito e grupos de área total'''
+tabelas[6896]='''Número de estabelecimentos agropecuários que obtiveram financiamento, por tipologia, finalidade do financiamento
+, condição do produtor em relação às terras, agente financeiro responsável pelo financiamento, grupos de atividade econômica e grupos de área total'''
 
 #obs: as duas tabelas finais são repetições de quadros anteriores
 
@@ -1299,7 +1299,7 @@ def Info():
             #st.html(codig1b, height=250, scrolling=True)
             #st.html(codig1b, width=250, unsafe_allow_javascript=True)
             st.iframe(codig1b, height=250)
-            st.markdown('<p style="font-size: 14px;color: blue;">Obs: Algodão: ¢R$ /Libra-peso(lp) <span style="font-family: symbol;">@ </span> 33,069/100 <span style="font-family: symbol;">@</span>1/3 <span style="font-family: symbol;">Þ</span> R$/@<span style="font-family: symbol;">\</span>1lp=0,453597 kg</p>',unsafe_allow_html=True)
+            st.markdown('<p style="font-size: 14px;color: blue;">Obs: Algodão: ¢R$ /Libra-peso(lp) <span style="font-family: symbol;">@ </span> 33,069/100 <span style="font-family: symbol;">@</span>1/3 <span style="font-family: symbol;">Þ</span> R$/@<span style="font-family: symbol;">/</span>1lp=0,453597 kg</p>',unsafe_allow_html=True)
             st.markdown('<p style="font-size: 14px;color: blue;">Ex: 70,98 (¢/lb)*33.069= 2347.238/100= 23.47238 (US$/@)*5.76= 135.20 (R$/@)</p>',unsafe_allow_html=True)
           with LINHA3A1[3]:
             codig1c='<!-- Widgets Notícias Agrícolas - www.noticiasagricolas.com.br/widgets --><script type="text/javascript" src="https://www.noticiasagricolas.com.br/widgets/cotacoes?id=81&fonte=Arial%2C%19Helvetica%2C%19sans-serif&tamanho=9pt&largura=300px&cortexto=333333&corcabecalho=B2C3C6&corlinha=DCE7E9&imagem=true&output=js"></script>'
