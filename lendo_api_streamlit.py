@@ -1254,7 +1254,7 @@ def ViewPDF(wch_fl,compr=1200,larg=950):
   # Now you can access "pdf_ref" anywhere in your app.
   if ss.pdf_ref:
       binary_data = ss.pdf_ref.getvalue()
-      pdf_viewer(input=binary_data, width="%s" height="%s")%(compr,larg)
+      pdf_viewer(input=binary_data, width="%s", height="%s")%(compr,larg)
    
     
 dicagrolink={'AC':9822,'AL':9823,'BA':9826,'CE':9827,'DF':9828,\
