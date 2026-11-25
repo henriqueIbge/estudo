@@ -1707,6 +1707,21 @@ def main():
         heigth:20%;
         }
       </style>'''
+    st.markdown("""
+    <style>
+        @media (max-width: 768px) {
+            /* Reduz o tamanho do título principal no celular */
+            h1 {
+                font-size: 1.8rem !important;
+            }
+            /* Diminui o espaçamento das bordas da tela */
+            .block-container {
+                padding-top: 2rem !important;
+                padding-left: 1rem !important;
+                padding-right: 1rem !important;
+            }
+        }
+    </style>""", unsafe_allow_html=True)
       #caso queira cada linha da tabela formatada coloque o código abaixo
       #div[data-testid="element-container"]{
       #  margin:0.1%;
