@@ -1234,31 +1234,32 @@ def acesso_dados1():
 ctkey=0
 def ViewPDF(wch_fl,compr=1200,larg=950):
   global ctkey
-  #with open(wch_fl,"rb") as pdf_file:
+  with open(wch_fl,"rb") as pdf_file:
     #base64_pdf = base64.b64encode(pdf_file.read()).decode('utf-8')
     #pdf_display = f'<embed src="data:application/pdf;base64,{base64_pdf}" width="%s" height="%s" type="application/pdf">'%(compr,larg)
     
     #st.markdown(pdf_display, unsafe_allow_html=True)
-  #pdf_display = f'<iframe src="{wch_fl}" width="%s" height="%s" type="application/pdf"></iframe>'%(compr,larg)
+    #pdf_display = f'<iframe src="{wch_fl}" width="%s" height="%s" type="application/pdf"></iframe>'%(compr,larg)
 
-  #pdf_display = f'<embed src="{wch_fl}" width="%s" height="%s" >'%(compr,larg)
-  #st.markdown(pdf_display, unsafe_allow_html=True)
+    pdf_display = f'<embed src="{wch_fl}" width="%s" height="%s" >'%(compr,larg)
+    st.markdown(pdf_display, unsafe_allow_html=True)
   
-  if 'pdf_ref' not in ss:
-    ss.pdf_ref = None
-
-  ctkey+=1
-  # Access the uploaded ref via a key.
-  st.file_uploader(wch_fl, type=('pdf'),key='pdf_%s'%ctkey)
-
-  if eval('ss.pdf_%s'%ctkey):
-      ss.pdf_ref = eval('ss.pdf_%s'%ctkey)  # backup
-      
-
-  # Now you can access "pdf_ref" anywhere in your app.
-  if ss.pdf_ref:
-      binary_data = ss.pdf_ref.getvalue()
-      pdf_viewer(input=binary_data, width=compr, height=larg)
+  
+##  if 'pdf_ref' not in ss:
+##    ss.pdf_ref = None
+##
+##  ctkey+=1
+##  # Access the uploaded ref via a key.
+##  st.file_uploader(wch_fl, type=('pdf'),key='pdf_%s'%ctkey)
+##
+##  if eval('ss.pdf_%s'%ctkey):
+##      ss.pdf_ref = eval('ss.pdf_%s'%ctkey)  # backup
+##      
+##
+##  # Now you can access "pdf_ref" anywhere in your app.
+##  if ss.pdf_ref:
+##      binary_data = ss.pdf_ref.getvalue()
+##      pdf_viewer(input=binary_data, width=compr, height=larg)
    
     
 dicagrolink={'AC':9822,'AL':9823,'BA':9826,'CE':9827,'DF':9828,
