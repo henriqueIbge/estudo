@@ -21,6 +21,7 @@ import plotly.express as px
 import base64
 from streamlit_pdf_viewer import pdf_viewer
 from streamlit import session_state as ss
+from pathlib import Path
 tabelas_todo={}
 tabelas={}
 
@@ -1540,7 +1541,7 @@ def Info():
         import glob
         caminho='./Forrageiras_ou_daninhas/Plantas_daninhas_Embrapa'
         ler=glob.glob(caminho+'//*')
-        dicherb={"Plantas daninhas 1":'poster1.pdf',"Plantas daninhas 2":'./poster2.pdf',"Plantas daninhas 3":'./poster3_compressed.pdf', "Forrageiras":'./Forrageiras_ou_daninhas/Cartilha_Forrageiras_Zootécnico_compressed.pdf'}         
+        dicherb={"Plantas daninhas 1":Path('poster1.pdf'),"Plantas daninhas 2":'./poster2.pdf',"Plantas daninhas 3":'./poster3_compressed.pdf', "Forrageiras":'./Forrageiras_ou_daninhas/Cartilha_Forrageiras_Zootécnico_compressed.pdf'}         
         cab1=["Plantas daninhas 1", "Plantas daninhas 2", "Plantas daninhas 3", "Forrageiras"]
         
         for i in range(len(ler)):
